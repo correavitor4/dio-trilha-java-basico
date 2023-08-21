@@ -4,10 +4,10 @@ import models.Conta;
 import java.util.Scanner;
 public class ContaService {
     public Conta registrarConta() {
-        int numero = 0;
-        String agencia = "";
-        String nomeClient = "";
-        float saldo = 0.0f;
+        int numero;
+        String agencia;
+        String nomeClient;
+        float saldo;
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite o número da conta:");
